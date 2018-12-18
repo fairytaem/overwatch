@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Bootstrap Homepage</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+	<div class="container-fluid p-0">
+		<div id="demo1" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo1" data-slide-to="0" class="active"></li>
+    <li data-target="#demo1" data-slide-to="1"></li>
+    <li data-target="#demo1" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/index02.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/index03.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/index01.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo1" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+</div>
+	<div class="header">
+		<nav class="navbar navbar-expand-md fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">고급 시계</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#tmenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				
+				<div class="collapse navbar-collapse" id="tmenu">
+					<ul class="nav navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">게임</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">캐릭터</a>
+								<a href="#" class="dropdown-item">실시간 관전</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">새소식</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">공지</a>
+								<a href="#" class="dropdown-item">기사</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">이벤트</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">이벤트</a>
+								<a href="#" class="dropdown-item">당첨자 발표</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">E스포츠</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">리그</a>
+								<a href="#" class="dropdown-item">월드 챔피언십</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Company</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">타임라인</a>
+								<a href="#" class="dropdown-item">활동 범위</a>
+								<a href="#" class="dropdown-item">인재 채용</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container text-left">
+			<h2><strong>캐릭터</strong><div class="btn mt-4 more">캐릭터 더 보기</div></h2>
+			<ul class="character">
+				<li>
+					<a href="#"><img src="./images/dva.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="./images/wreckingball.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="./images/widow.png" alt=""></a>
+				</li>
+				<li>
+					<a href="#"><img src="./images/genji.png" alt=""></a>
+				</li>
+			</ul>
+			
+			<div class="d-none d-md-block mt-5"></div>
+		</div>
+
+		<div class="container text-left">
+			<h2><strong>실시간 관전</strong><div class="btn mt-4 more">방 검색</div></h2>
+			<ul class="gameview">
+				<li>
+					<iframe width="330" height="200" src="https://www.youtube.com/embed/bemaGRU0Ink" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li>
+					<iframe width="330" height="200" src="https://www.youtube.com/embed/IYXUySZ_iaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+				<li>
+					<iframe width="330" height="200" src="https://www.youtube.com/embed/qDUL26tL320" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</li>
+			</ul>
+			
+			<div class="d-none d-md-block mt-5"></div>
+		</div>
+
+	</div>
+<div class="pt-5 pb-5 bg-grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h2><strong>최신소식</strong></h2>
+				<p class="newsp">2018년 5월 9일부터 21일까지 핑크 메르시 스킨 판매로 얻은 수익 전액을 Breast Cancer Research Foundation 유방암 연구 재단에 기부할 예정입니다. BCRF는 유방암 근절에 앞장서고 있으며, 이에 관해서는 세계 최고의 기관이 되려는 사명을 갖고 있습니다. BCRF에 대해 더 자세한 내용이 알고 싶으시면 www.bcrf.org를 방문하세요.</p>
+				<a href="#" class="btn mb-5">새소식 더 보기</a>
+			</div>
+			<div class="col-md-7"><img src="./images/pink.png"></div>
+		</div>
+	</div>
+</div>
+
+<div class="pt-5 pb-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7"><img src="./images/event.png"></div>
+			<div class="col-md-5">
+				<h2><strong>이벤트</strong></h2>
+				<h4 class="ash">애쉬 출시 기념 - 오버워치를 플레이하고 전리품 교환소에서 선물을 획득하세요!</h4>
+				<p class="ash">신규 영웅 애쉬 출시와 함께 오버워치 전리품 교환소가 여러분을  찾아왔습니다. 오버워치를 플레이하고 오버워치 전리품 교환소에서 선물도 획득하세요!</p>
+				<p class="ash">11월 15부터 12월 31일까지 오버워치를 플레이하면 집이나 PC방, 어디서나 눈송이를 획득하실 수 있습니다. 모은 눈송이로 오버워치 전리품 교환소에서 경품에 응모하세요!</p>
+				<a href="#" class="btn mb-5">이벤트 페이지 바로 가기</a>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="pt-5 pb-5 bg-grey">
+	<div class="container text-left">
+				<h2><strong>E스포츠 하이라이트</strong><a href="#" class="btn mb-5 more">more</a></h2>
+
+				<ul class="gameview">
+					<li>
+						<iframe width="330" height="200" src="https://www.youtube.com/embed/qHZ0H4R0xVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</li>
+					<li>
+						<iframe width="330" height="200" src="https://www.youtube.com/embed/3sQTkojXxUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</li>
+					<li>
+						<iframe width="330" height="200" src="https://www.youtube.com/embed/2yRqz2C1kCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</li>
+				</ul>
+				
+	</div>
+</div>
+
+<div class="bg-dark text-light text-center pt-5 pb-5 d-none d-md-block">
+	<div class="container">
+					<h4>소셜 서비스</h4>
+					<ul class="social m-auto p-0">
+						<li>
+							<a href="#"><img src="./images/social1.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/social2.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/social3.png" alt=""></a>
+						</li>
+						<li>
+							<a href="#"><img src="./images/social4.png" alt=""></a>
+						</li>
+					</ul>
+	</div>
+</div>
+<footer class="footer">
+고급 시계 엔터테인먼트 유한 회사<br>
+주소: 06164 서울시 강남구 테헤란로 521 파르나스타워 15층<br>
+대표 번호: 1644-0727 | 팩스 번호: (02)544-3038 | 이메일: websupport@blizzard.co.kr<br>
+사업자 등록 번호: 211-87-49910 | 통신 판매업 신고 번호: 강남-6017호 | 사업자정보확인<br>
+대표이사: 마이클 모하임, 전동진 | 개인정보 보호책임자: 전동진 대표이사
+</footer>
+
+<div class="modal fade" id="myModal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Modal title</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					<span class="sr-only">Close</span>
+				</button>
+				
+			</div>
+			<div class="modal-body">
+				<p>One fine body&hellip;</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+		<!-- <ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="#">Disabled</a>
+			</li>
+		</ul>
+ -->
+	
+</body>
+</html>
+</body>
+</html>
